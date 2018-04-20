@@ -1,5 +1,11 @@
 {
+    "autoload": {
+        "psr-4": {
+            "ChatApp\\": "app"
+        }
+    },
     "require": {
-        "cboden/ratchet": "^0.4.1"
+        "cboden/ratchet": "^0.4.1",
+        "ext-redis": "^3.1"
     }
 }
